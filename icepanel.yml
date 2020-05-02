@@ -1,159 +1,159 @@
 files:
-  - path: /kubernetes-manifests/adservice.yaml
-  - path: /kubernetes-manifests/cartservice.yaml
-  - path: /kubernetes-manifests/checkoutservice.yaml
-  - path: /kubernetes-manifests/currencyservice.yaml
-  - path: /kubernetes-manifests/emailservice.yaml
-  - path: /kubernetes-manifests/frontend.yaml
-  - path: /kubernetes-manifests/loadgenerator.yaml
-  - path: /kubernetes-manifests/paymentservice.yaml
-  - path: /kubernetes-manifests/productcatalogservice.yaml
-  - path: /kubernetes-manifests/recommendationservice.yaml
-  - path: /kubernetes-manifests/redis.yaml
-  - path: /kubernetes-manifests/shippingservice.yaml
+  - path: kubernetes-manifests/adservice.yaml
+  - path: kubernetes-manifests/cartservice.yaml
+  - path: kubernetes-manifests/checkoutservice.yaml
+  - path: kubernetes-manifests/currencyservice.yaml
+  - path: kubernetes-manifests/emailservice.yaml
+  - path: kubernetes-manifests/frontend.yaml
+  - path: kubernetes-manifests/loadgenerator.yaml
+  - path: kubernetes-manifests/paymentservice.yaml
+  - path: kubernetes-manifests/productcatalogservice.yaml
+  - path: kubernetes-manifests/recommendationservice.yaml
+  - path: kubernetes-manifests/redis.yaml
+  - path: kubernetes-manifests/shippingservice.yaml
 nodes:
   - kind: Deployment
     name: adservice
     plugin: kubernetes-deployment
     position:
-      x: 272
+      x: 510
       y: 190
   - kind: Service
     name: adservice
     plugin: kubernetes-service
     position:
-      x: 477
+      x: 715
       y: 190
   - kind: Deployment
     name: cartservice
     plugin: kubernetes-deployment
     position:
-      x: 51
+      x: 289
       y: 1040
   - kind: Service
     name: cartservice
     plugin: kubernetes-service
     position:
-      x: 277
+      x: 515
       y: 1040
   - kind: Deployment
     name: checkoutservice
     plugin: kubernetes-deployment
     position:
-      x: 695
+      x: 933
       y: 360
   - kind: Service
     name: checkoutservice
     plugin: kubernetes-service
     position:
-      x: 1073
+      x: 1311
       y: 360
   - kind: Deployment
     name: currencyservice
     plugin: kubernetes-deployment
     position:
-      x: 57
+      x: 295
       y: 870
   - kind: Service
     name: currencyservice
     plugin: kubernetes-service
     position:
-      x: 277
+      x: 515
       y: 870
   - kind: Deployment
     name: emailservice
     plugin: kubernetes-deployment
     position:
-      x: 72
+      x: 310
       y: 700
   - kind: Service
     name: emailservice
     plugin: kubernetes-service
     position:
-      x: 277
+      x: 515
       y: 700
   - kind: Deployment
     name: frontend
     plugin: kubernetes-deployment
     position:
-      x: 935
+      x: 1173
       y: 20
   - kind: Service
     name: frontend
     plugin: kubernetes-service
     position:
-      x: 1313
+      x: 1551
       y: 20
   - kind: Service
     name: frontend-external
     plugin: kubernetes-service
     position:
-      x: 1313
+      x: 1551
       y: 190
   - kind: Deployment
     name: loadgenerator
     plugin: kubernetes-deployment
     position:
-      x: 1512
+      x: 1750
       y: 20
   - kind: Deployment
     name: paymentservice
     plugin: kubernetes-deployment
     position:
-      x: 48
+      x: 286
       y: 530
   - kind: Service
     name: paymentservice
     plugin: kubernetes-service
     position:
-      x: 269
+      x: 507
       y: 530
   - kind: Deployment
     name: productcatalogservice
     plugin: kubernetes-deployment
     position:
-      x: 194
+      x: 432
       y: 20
   - kind: Service
     name: productcatalogservice
     plugin: kubernetes-service
     position:
-      x: 455
+      x: 693
       y: 20
   - kind: Deployment
     name: recommendationservice
     plugin: kubernetes-deployment
     position:
-      x: 695
+      x: 933
       y: 680
   - kind: Service
     name: recommendationservice
     plugin: kubernetes-service
     position:
-      x: 1073
+      x: 1311
       y: 680
   - kind: Deployment
     name: redis-cart
     plugin: kubernetes-deployment
     position:
-      x: -375
+      x: -137
       y: 1040
   - kind: Service
     name: redis-cart
     plugin: kubernetes-service
     position:
-      x: -170
+      x: 68
       y: 1040
   - kind: Deployment
     name: shippingservice
     plugin: kubernetes-deployment
     position:
-      x: 49
+      x: 287
       y: 360
   - kind: Service
     name: shippingservice
     plugin: kubernetes-service
     position:
-      x: 269
+      x: 507
       y: 360
 version: '1'
