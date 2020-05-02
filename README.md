@@ -30,7 +30,7 @@ Looking for the old Hipster Shop frontend interface? Use the [manifests](https:/
 
 ## Service Architecture
 
-[![Coverage](http://staging.designer.icepanel.io/img/badges/view.svg)](http://staging.designer.icepanel.io/?ref=github.com/IcePanel/microservices-demo/master/icepanel.yml)
+[![IcePanel](http://staging.designer.icepanel.io/img/badges/view.svg)](http://staging.designer.icepanel.io/?ref=https://raw.githubusercontent.com/IcePanel/microservices-demo/master/icepanel.yml)
 
 **Online Boutique** is composed of many microservices written in different
 languages that talk to each other over gRPC.
